@@ -1,1 +1,51 @@
-$(document).ready(function(){});
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          
+}
+
+.container {
+  margin: 0 0 auto 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+  height: auto;
+  background-image: url("assets/background.jpg")
+  
+}
+
+.jumbotron{
+	margin-top: 80px;
+	opacity: 0.9;
+	
+}
+
+.btn {
+
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+  background-color: #b3b3ff;
+
+}
+
+.title{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+
+#option_1{
+	display: block;
+}
+#option_2{
+	display: none;
+}
+#option_3{
+	display: none;
+}
